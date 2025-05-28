@@ -19,7 +19,7 @@ function HomePage() {
           <h1 className="font-extrabold text-2xl sm:text-4xl lg:text-5xl leading-tight text-black drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)]">
             Prediksi Pasar Saham Mingguan Untuk
           </h1>
-          <h2 className="italic font-bold text-2xl sm:text-4xl lg:text-5xl mt-1 leading-tight text-lime-500">
+          <h2 className="font-instrument italic font-bold text-3xl sm:text-5xl lg:text-6xl mt-1 leading-tight text-lime-500">
             Investor Pemula
           </h2>
           <p className="text-black text-sm sm:text-base lg:text-lg mt-4 max-w-xl mx-auto opacity-90">

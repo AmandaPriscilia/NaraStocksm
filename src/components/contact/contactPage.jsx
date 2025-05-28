@@ -51,7 +51,9 @@ const ContactPage = () => {
                 type="text"
                 id="fullname"
                 name="fullname"
-                className={`form-input w-full ${errors.fullname ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''}`}
+                className={`form-input w-full ${
+                  errors.fullname ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''
+                }`}
                 placeholder=" "
                 required
                 aria-required="true"
@@ -74,7 +76,9 @@ const ContactPage = () => {
                 type="email"
                 id="email"
                 name="email"
-                className={`form-input w-full ${errors.email ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''}`}
+                className={`form-input w-full ${
+                  errors.email ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''
+                }`}
                 placeholder=" "
                 required
                 aria-required="true"
@@ -97,7 +101,9 @@ const ContactPage = () => {
                 type="tel"
                 id="phone"
                 name="phone"
-                className={`form-input w-full ${errors.phone ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''}`}
+                className={`form-input w-full ${
+                  errors.phone ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''
+                }`}
                 placeholder=" "
                 aria-describedby="phoneHelp"
                 autoComplete="tel"
@@ -117,7 +123,9 @@ const ContactPage = () => {
               <select
                 id="subject"
                 name="subject"
-                className={`form-select w-full ${errors.subject ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''}`}
+                className={`form-select w-full ${
+                  errors.subject ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''
+                }`}
                 required
                 aria-required="true"
                 aria-describedby="subjectHelp"
@@ -147,7 +155,9 @@ const ContactPage = () => {
               <textarea
                 id="message"
                 name="message"
-                className={`form-textarea w-full ${errors.message ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''}`}
+                className={`form-textarea w-full ${
+                  errors.message ? 'border-red-500 focus:border-red-500 focus:ring-red-200' : ''
+                }`}
                 placeholder="Ceritakan secara detail tentang situasi investasi Anda saat ini, target yang ingin dicapai, atau pertanyaan spesifik yang ingin didiskusikan dengan tim ahli kami..."
                 required
                 aria-required="true"
@@ -162,7 +172,9 @@ const ContactPage = () => {
               <button
                 type="submit"
                 id="submitBtn"
-                className={`btn-primary font-bold shadow-lg relative overflow-hidden ${isLoading ? 'btn-loading' : ''}`}
+                className={`btn-primary font-bold shadow-lg relative overflow-hidden ${
+                  isLoading ? 'btn-loading' : ''
+                }`}
                 aria-live="polite"
                 aria-busy={isLoading ? 'true' : 'false'}
                 disabled={isLoading}

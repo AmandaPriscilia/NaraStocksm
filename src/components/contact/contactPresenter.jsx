@@ -99,7 +99,9 @@ const useContactPresenter = () => {
       setErrors({}); // Hapus error saat berhasil submit
     } catch (error) {
       console.error('Error submitting form:', error);
-      setErrors({ form: 'Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.' });
+      setErrors({
+        form: 'Terjadi kesalahan saat mengirim pesan. Silakan coba lagi.',
+      });
     } finally {
       setIsLoading(false);
       // Gulir ke atas halaman untuk menampilkan pesan sukses/error
