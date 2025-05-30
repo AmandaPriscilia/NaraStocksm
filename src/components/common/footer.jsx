@@ -2,6 +2,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // PENTING: Import Link
 
+
+
 function Footer() {
   // Definisikan item-item footer dengan path yang sesuai
   const companyLinks = [
